@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+}
+
+.plain-button {
+    @apply focus:outline-none active:outline-none outline-none border-none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.clicked {
+    @apply active:shadow-2xl active:shadow-neongreen;
+}
+
+button.clicked:active>img {
+    animation: spin 1s ease-in-out;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(10turn);
+    }
+}
