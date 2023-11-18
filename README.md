@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Aniket200-ind/advice-generator-app)
-- Live Site URL: [Add live site URL here](https://adviser-app.netlify.app)
+- Live Site URL: [Add live site URL here](https://guidance-guru.netlify.app/)
 
 ## My process
 
